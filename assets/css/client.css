@@ -1,0 +1,27 @@
+.client{
+    margin-top: 30px;
+    padding: 50px 20px;
+    overflow: hidden;
+}
+.client-content{
+    text-align: center;
+}
+.Testimonials{
+margin-bottom: 20px;
+}
+
+
+
+.counter-section{
+    background-color: aliceblue;
+    padding: 50px 0px;
+    margin-top: 30px;
+}
+@media screen and (max-width:576px) {
+    .counter-items{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 20px;
+    }
+}
